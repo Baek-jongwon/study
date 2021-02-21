@@ -1,3 +1,9 @@
+//결과: 시간초과 
+// https://na982.tistory.com/?page=31 참고 하여 아래 항목 수정.
+// 1. vector<pair<int,int>> 를 사용하지 않고 구조체 활용
+// 2. cin, cout => scanf , printf 변경 
+// 참고한 코드와 거의 유사하지만 시간초과 나는 이유??
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <algorithm>
